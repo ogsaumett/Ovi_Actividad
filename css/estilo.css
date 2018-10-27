@@ -15,7 +15,8 @@ header {
 	left: 0;
 	z-index: 99999;
 	/*z-index: 0; Defecto*/
-	background: rgba(255,175,0,0.9);
+	background: rgba(240,180,41,1.0);
+	/*background: rgba(255,175,0,0.9);*/
 	box-shadow: 0 5px 10px rgba(0,0,0,0.55);
 }
 header nav {
@@ -59,14 +60,14 @@ header nav #link_8:hover { background-position: -1043px -111px; }
 
 /**/
 section {
-	width: 960px;
+	width: 1024px;
 	height: auto;
-	margin: 0 auto;
+	margin: 100 auto;
 }
 section article {
 	width: 960px;
 	height: 650px;
-	margin: 0 auto 500px auto;
+	margin: 0 auto 100px auto;
 	position: relative; /*Posición Relativa*/
 	/*background: rgba(255,255,255,0.9);
 	border-radius: 25px;*/
@@ -157,13 +158,13 @@ section article div figure, section article div p {
 }
 /**/
 aside {
-	width: 55px;
+	width: 300px;
 	height: 250px;
 	position: fixed; /*Posición Fija*/
 	top: 30%;
 	right: 0;
 	z-index: 99997;
-	background: rgba(255,175,0,0.9);
+	background: rgba(240,180,41,1);
 	box-shadow: 0 0 10px rgba(0,0,0,0.55);
 	border-radius: 15px 0 0 15px;
 }
@@ -175,6 +176,6 @@ footer {
 	bottom: 0;
 	left: 0;
 	z-index: 99998;
-	background: rgba(255,175,0,0.9);
+	background: rgba(240,180,41,1);
 	box-shadow: 0 -5px 10px rgba(0,0,0,0.55);
 }
